@@ -1,0 +1,42 @@
+**{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.instagram{
+	padding:40px;
+
+}
+.item{
+	display:flex;
+	font-size:20px;
+	
+	
+}
+.icon i{
+	font-size:20px;
+	padding:10px;
+}
+.icon2{
+	position:relative;
+	padding:10px;
+}
+.icon{
+	display:flex;
+	position:relative;
+}
+.icon p{
+	position:absolute;
+	top:40px;
+	
+}
+.fill{
+	position:absolute;
+	z-index:-1;
+	visibility:hidden;
+	color:red;
+}
+.insta{
+	visibility:visible;
+	z-index:1;
+}
